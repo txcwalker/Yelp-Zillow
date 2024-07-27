@@ -1,5 +1,5 @@
 # Yelp-Zillow
-•	Leveraged Yelp API to systematically extract and aggregate data 
+•	Leveraged Yelp API to systematically extract and aggregate data /n
 •	Constructed a predictive model using random forest algorithms to estimate housing price based on Yelp data
 •	Engineered a search algorithm to analyze, evaluate and reverse-engineer Yelp’s search functionality
 
