@@ -39,13 +39,3 @@ The project demonstrates how publicly available business data can be leveraged f
 ### Visualization
 - Generated **heat density maps** to visualize geographic distribution of business activity and housing price predictions.
 - Created summary plots highlighting the most common search results.
-
----
-
-## Installation
-*(Optional — if you want people to rerun your code, add setup steps here. For example:)*
-
-```bash
-git clone https://github.com/yourusername/Yelp-Zillow.git
-cd Yelp-Zillow
-pip install -r requirements.txt
