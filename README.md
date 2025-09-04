@@ -54,4 +54,4 @@ This project shows how public business data can be applied to real estate analyt
 
 ## Website
 This project is also showcased on my personal website with write-ups and visualizations:  
-👉 [Visit the Project Page](https://txcwalker.github.io)
+[Visit the Project Page](https://txcwalker.github.io)
