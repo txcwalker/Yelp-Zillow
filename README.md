@@ -1,16 +1,51 @@
-# Yelp-Zillow
-•	Leveraged Yelp API to systematically extract and aggregate data  
-•	Constructed a predictive model using random forest algorithms to estimate housing price based on Yelp data  
-•	Engineered a search algorithm to analyze, evaluate and reverse-engineer Yelp’s search functionality
+# Yelp–Zillow Housing Price Prediction
 
-# Search Score
-•	Engineered a search algorithm to analyze, evaluate and reverse-engineer Yelp’s search functionality  
-•	Compared engineered algorithm to Yelp's version to evaluate potential bias in either search function  
+## Table of Contents
+1. [Abstract](#abstract)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Results](#results)
+6. [Project Structure](#project-structure)
+7. [Future Work](#future-work)
+8. [Acknowledgments](#acknowledgments)
 
-# Tag Graphs and Heat Map
-•	Summarized and presented most common search results   
-•	Plotted heat denisty maps to visualization data geographically  
+---
 
-# Zillow/Housing
-•	Constructed a predictive model using random forest algorithms to estimate housing price based on Yelp data   
-•	Mapped results to evaluate random forest accuracy  
+## Abstract
+This project explores the relationship between local business activity and housing prices by integrating **Yelp API business data** with **Zillow housing data**. The primary objectives were:
+
+- To investigate whether Yelp business metrics can serve as predictive features for housing prices.
+- To build a **random forest regression model** to estimate housing prices using Yelp data.
+- To analyze Yelp’s **search functionality** by reverse-engineering and comparing it to an engineered search algorithm.
+
+The project demonstrates how publicly available business data can be leveraged for real estate analytics, while also uncovering potential biases in search algorithms.
+
+---
+
+## Features
+
+### Yelp Data Integration
+- Leveraged **Yelp API** to systematically extract and aggregate data on local businesses.
+
+### Predictive Modeling
+- Built a **random forest regression model** to estimate housing prices based on Yelp-derived features.
+- Evaluated prediction accuracy by mapping results against Zillow’s housing price data.
+
+### Search Algorithm Analysis
+- Engineered a custom search algorithm to analyze, evaluate, and reverse-engineer Yelp’s search functionality.
+- Compared results against Yelp’s native search to evaluate potential bias.
+
+### Visualization
+- Generated **heat density maps** to visualize geographic distribution of business activity and housing price predictions.
+- Created summary plots highlighting the most common search results.
+
+---
+
+## Installation
+*(Optional — if you want people to rerun your code, add setup steps here. For example:)*
+
+```bash
+git clone https://github.com/yourusername/Yelp-Zillow.git
+cd Yelp-Zillow
+pip install -r requirements.txt
